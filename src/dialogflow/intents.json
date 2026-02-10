@@ -1,0 +1,42 @@
+[
+  {
+    "displayName": "welcome",
+    "trainingPhrases": ["bonjour", "salut", "hello", "salam", "hey", "je veux une assurance", "assurer mon véhicule"],
+    "messages": [{ "text": "Bienvenue chez Tamini! 👋 Comment puis-je vous aider?" }]
+  },
+  {
+    "displayName": "faq.takaful.definition",
+    "trainingPhrases": ["c'est quoi le takaful", "qu'est-ce que takaful", "takaful définition", "différence takaful assurance classique", "assurance islamique c'est quoi"],
+    "messages": [{ "text": "Le Takaful est une assurance coopérative conforme à la Charia. C'est 100% halal ✓" }]
+  },
+  {
+    "displayName": "faq.tarifs.pourquoi_cher",
+    "trainingPhrases": ["pourquoi c'est cher", "c'est trop cher", "prix élevé", "je trouve ça cher"],
+    "messages": [{ "text": "Nos tarifs sont calculés selon la valeur, l'âge, l'usage et les sinistres." }]
+  },
+  {
+    "displayName": "faq.paiement.methodes",
+    "trainingPhrases": ["comment payer", "moyen de paiement", "paiement par carte", "orange money"],
+    "messages": [{ "text": "Vous pouvez payer par Orange Money, Evatis, D-Money ou en agence." }]
+  },
+  {
+    "displayName": "faq.documents.requis",
+    "trainingPhrases": ["quels documents", "documents nécessaires", "papiers à fournir", "que faut-il comme papier"],
+    "messages": [{ "text": "Envoyez: carte grise, permis de conduire, carte d'identité." }]
+  },
+  {
+    "displayName": "intent.devis",
+    "trainingPhrases": ["devis", "estimation", "prix assurance", "combien ça coûte"],
+    "messages": []
+  },
+  {
+    "displayName": "intent.aide",
+    "trainingPhrases": ["aide", "agent", "conseiller", "humain", "parler à quelqu'un"],
+    "messages": []
+  },
+  {
+    "displayName": "fallback",
+    "isFallback": true,
+    "messages": [{ "text": "Je n'ai pas compris. Tapez 'devis', 'aide' ou 'takaful'." }]
+  }
+]

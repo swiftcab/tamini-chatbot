@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+coverage/
+config/dialogflow-key.json
+config/vision-key.json
+assets/logo_tamini.png
