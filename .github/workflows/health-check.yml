@@ -1,0 +1,32 @@
+# Bilan de santé hebdomadaire du site Tamini.
+# S'exécute chaque lundi à 07:47 (heure de Djibouti) et peut être lancé
+# à la main : onglet « Actions » → « Bilan de santé du site » → « Run workflow ».
+# En cas d'anomalie critique, le job échoue et GitHub envoie un e-mail
+# au propriétaire du dépôt.
+name: Bilan de santé du site
+
+on:
+  schedule:
+    - cron: "47 4 * * 1"   # lundi 04:47 UTC = 07:47 Djibouti
+  workflow_dispatch:
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Contrôle du site
+        env:
+          SITE_URL: https://tamini-website.vercel.app
+          LEGACY_URL: https://www.tamini-insurance.com
+        run: node scripts/health-check.js
+      - name: Archiver le rapport
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-report
+          path: health-report.md
