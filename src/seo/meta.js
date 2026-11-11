@@ -7,12 +7,12 @@
 export const PAGE_META = {
   home: {
     fr: {
-      title: "Assurance Takaful Djibouti | Tamini Insurance SA",
+      title: "Assurance Djibouti : auto, habitation, voyage, entreprise | Tamini",
       description:
-        "1ère assurance Takaful agréée à Djibouti depuis 2020. Auto, habitation, voyage, entreprise. Surplus redistribué, conforme Charia. Devis gratuit sur WhatsApp.",
+        "Compagnie d'assurance Takaful agréée à Djibouti depuis 2020 : auto, habitation, voyage, entreprise. Excédent redistribué. Devis gratuit en ligne ou sur WhatsApp.",
     },
     en: {
-      title: "Takaful Insurance Djibouti | Tamini Insurance SA",
+      title: "Insurance in Djibouti: motor, home, travel, business | Tamini",
       description:
         "Djibouti's first licensed Takaful insurer since 2020. Motor, home, travel, business cover. Surplus shared, Sharia-compliant. Free quote on WhatsApp.",
     },

@@ -19,7 +19,7 @@ const SHORT = {
 const T = {
   fr: {
     eyebrow: "Première assurance Takaful agréée à Djibouti",
-    h1a: "Votre famille, vos biens, votre avenir.", h1b: "Protégés ensemble.",
+    h1a: "Assurance à Djibouti : votre famille, vos biens, votre avenir.", h1b: "Protégés ensemble.",
     sub: "Une assurance solidaire et conforme à la Charia : vos cotisations alimentent un fonds commun qui indemnise les membres, et l'excédent du fonds est partagé avec les participants éligibles.",
     cta1: "Demander un devis", cta2: "Parler à un conseiller", ctaNote: "Gratuit, sans engagement. Réponse par WhatsApp ou par téléphone.",
     badgeT: "Agréée par l'ARSD", badgeS: "Autorité de régulation des assurances de Djibouti",
@@ -39,7 +39,7 @@ const T = {
   },
   en: {
     eyebrow: "Djibouti's first licensed Takaful insurer",
-    h1a: "Your family, your assets, your future.", h1b: "Protected together.",
+    h1a: "Insurance in Djibouti: your family, your assets, your future.", h1b: "Protected together.",
     sub: "Solidarity-based, Sharia-compliant insurance: your contributions feed a common fund that compensates members, and the fund's surplus is shared with eligible participants.",
     cta1: "Get a quote", cta2: "Talk to an advisor", ctaNote: "Free, no commitment. Answer by WhatsApp or phone.",
     badgeT: "Licensed by ARSD", badgeS: "Djibouti's insurance regulatory authority",
@@ -59,7 +59,7 @@ const T = {
   },
   ar: {
     eyebrow: "أول شركة تأمين تكافلي مرخصة في جيبوتي",
-    h1a: "عائلتك، ممتلكاتك، مستقبلك.", h1b: "محميّة معاً.",
+    h1a: "التأمين في جيبوتي: عائلتك، ممتلكاتك، مستقبلك.", h1b: "محميّة معاً.",
     sub: "تأمين تضامني متوافق مع الشريعة: اشتراكاتكم تغذي صندوقاً مشتركاً يعوّض الأعضاء، ويُشارك فائض الصندوق مع المشتركين المؤهلين.",
     cta1: "اطلب عرض سعر", cta2: "تحدث إلى مستشار", ctaNote: "مجاناً وبدون التزام. الرد عبر واتساب أو الهاتف.",
     badgeT: "مرخصة من ARSD", badgeS: "هيئة تنظيم قطاع التأمين في جيبوتي",
@@ -94,7 +94,8 @@ export default function Home() {
   const { openFunnel } = useFunnel();
   const meta = PAGE_META.home[lang] || PAGE_META.home.fr;
   const max = Math.max(...SURPLUS.series.map((d) => d.v));
-  const articles = ARTICLES.slice(0, 3);
+  const FEATURED = ["assurance-djibouti-guide", "assurance-auto-djibouti-prix", "takaful-definition-fonctionnement"];
+  const articles = FEATURED.map((slug) => ARTICLES.find((a) => a.slug === slug)).filter(Boolean);
 
   const ProductList = ({ list }) => (
     <div className="grid" style={{ gap: 10 }}>

@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useLang } from "../i18n/LanguageContext";
 import Seo, { breadcrumbSchema, SITE_URL } from "../seo/Seo";
-import { AGENCIES, PHONE, WA_B2C, wa } from "../config/site";
+import { AGENCIES, PHONE, WA_B2C, wa, hoursLines, openingHoursSpec } from "../config/site";
 
 const T = {
-  fr: { seoT: "Agences Tamini Insurance à Djibouti : adresses et itinéraires", seoD: "Trouvez une agence Tamini Insurance à Djibouti : siège Place du 27 Juin, agence Salaam Bank Bawadi Mall, agence Salaam Elite Gabode 5. Itinéraires, téléphone, WhatsApp.", eye: "Nos agences", h1: "Trouver une agence Tamini à Djibouti", sub: "Souscrire un contrat, déposer un dossier sinistre, poser une question : nos conseillers vous accueillent dans trois agences.", dir: "Ouvrir l'itinéraire", call: "Appeler", wa: "Écrire sur WhatsApp", before: "Avant de vous déplacer", tips: ["Pour un devis, envoyez d'abord vos informations par le formulaire en ligne : votre conseiller aura préparé votre dossier.", "Pour un sinistre, munissez-vous de votre numéro de contrat et des photos des dommages.", "Les horaires d'ouverture vous sont confirmés par téléphone au " + PHONE.display + "."], home: "Accueil", services: "Services" },
-  en: { seoT: "Tamini Insurance branches in Djibouti: addresses and directions", seoD: "Find a Tamini Insurance branch in Djibouti: head office Place du 27 Juin, Salaam Bank Bawadi Mall branch, Salaam Elite Gabode 5 branch. Directions, phone, WhatsApp.", eye: "Our branches", h1: "Find a Tamini branch in Djibouti", sub: "Buy a policy, file a claim, ask a question: our advisors welcome you in three branches.", dir: "Open directions", call: "Call", wa: "WhatsApp us", before: "Before you visit", tips: ["For a quote, first send your details through the online form: your advisor will have your file ready.", "For a claim, bring your policy number and photos of the damage.", "Opening hours are confirmed by phone on " + PHONE.display + "."], home: "Home", services: "Services" },
-  ar: { seoT: "وكالات تأميني في جيبوتي: العناوين والاتجاهات", seoD: "اعثروا على وكالة تأميني في جيبوتي: المقر في ساحة 27 يونيو، وكالة بنك سلام في بوادي مول، وكالة سلام إيليت في غابود 5.", eye: "وكالاتنا", h1: "ابحثوا عن وكالة تأميني في جيبوتي", sub: "اكتتاب عقد، إيداع ملف مطالبة، طرح سؤال: يستقبلكم مستشارونا في ثلاث وكالات.", dir: "فتح الاتجاهات", call: "اتصل", wa: "راسلنا على واتساب", before: "قبل الزيارة", tips: ["لعرض سعر، أرسلوا معلوماتكم أولاً عبر النموذج الإلكتروني ليجهّز مستشاركم ملفكم.", "للمطالبة، أحضروا رقم العقد وصور الأضرار.", "تُؤكد أوقات العمل عبر الهاتف على " + PHONE.display + "."], home: "الرئيسية", services: "الخدمات" },
+  fr: { seoT: "Agences Tamini Insurance à Djibouti : adresses, horaires et itinéraires", seoD: "Trouvez une agence Tamini Insurance à Djibouti : siège Place du 27 Juin, agence Salaam Bank Bawadi Mall, agence Salaam Elite Gabode 5. Horaires, itinéraires, téléphone, WhatsApp.", eye: "Nos agences", h1: "Trouver une agence Tamini à Djibouti", sub: "Souscrire un contrat, déposer un dossier sinistre, poser une question : nos conseillers vous accueillent dans trois agences.", dir: "Ouvrir l'itinéraire", call: "Appeler", wa: "Écrire sur WhatsApp", before: "Avant de vous déplacer", tips: ["Pour un devis, envoyez d'abord vos informations par le formulaire en ligne : votre conseiller aura préparé votre dossier.", "Pour un sinistre, munissez-vous de votre numéro de contrat et des photos des dommages.", "Une question avant de venir ? Appelez le " + PHONE.display + " ou écrivez-nous sur WhatsApp."], home: "Accueil", services: "Services", hours: "Horaires d'ouverture" },
+  en: { seoT: "Tamini Insurance branches in Djibouti: addresses and directions", seoD: "Find a Tamini Insurance branch in Djibouti: head office Place du 27 Juin, Salaam Bank Bawadi Mall branch, Salaam Elite Gabode 5 branch. Directions, phone, WhatsApp.", eye: "Our branches", h1: "Find a Tamini branch in Djibouti", sub: "Buy a policy, file a claim, ask a question: our advisors welcome you in three branches.", dir: "Open directions", call: "Call", wa: "WhatsApp us", before: "Before you visit", tips: ["For a quote, first send your details through the online form: your advisor will have your file ready.", "For a claim, bring your policy number and photos of the damage.", "A question before you come? Call " + PHONE.display + " or message us on WhatsApp."], home: "Home", services: "Services", hours: "Opening hours" },
+  ar: { seoT: "وكالات تأميني في جيبوتي: العناوين والاتجاهات", seoD: "اعثروا على وكالة تأميني في جيبوتي: المقر في ساحة 27 يونيو، وكالة بنك سلام في بوادي مول، وكالة سلام إيليت في غابود 5.", eye: "وكالاتنا", h1: "ابحثوا عن وكالة تأميني في جيبوتي", sub: "اكتتاب عقد، إيداع ملف مطالبة، طرح سؤال: يستقبلكم مستشارونا في ثلاث وكالات.", dir: "فتح الاتجاهات", call: "اتصل", wa: "راسلنا على واتساب", before: "قبل الزيارة", tips: ["لعرض سعر، أرسلوا معلوماتكم أولاً عبر النموذج الإلكتروني ليجهّز مستشاركم ملفكم.", "للمطالبة، أحضروا رقم العقد وصور الأضرار.", "سؤال قبل الزيارة؟ اتصلوا على " + PHONE.display + " أو راسلونا على واتساب."], home: "الرئيسية", services: "الخدمات", hours: "أوقات العمل" },
 };
 
 export default function Agences() {
@@ -16,7 +16,7 @@ export default function Agences() {
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
-      ...AGENCIES.map((a) => ({ "@type": "InsuranceAgency", "@id": `${SITE_URL}/agences#${a.id}`, name: `Tamini Insurance — ${a.name.fr}`, address: { "@type": "PostalAddress", streetAddress: a.place.fr, addressLocality: "Djibouti", addressCountry: "DJ" }, telephone: PHONE.intl, url: `${SITE_URL}/agences`, hasMap: a.maps, parentOrganization: { "@type": "Organization", name: "Tamini Insurance SA" } })),
+      ...AGENCIES.map((a) => ({ "@type": "InsuranceAgency", "@id": `${SITE_URL}/agences#${a.id}`, name: `Tamini Insurance — ${a.name.fr}`, address: { "@type": "PostalAddress", streetAddress: a.place.fr, addressLocality: "Djibouti", addressCountry: "DJ" }, telephone: PHONE.intl, url: `${SITE_URL}/agences`, hasMap: a.maps, openingHoursSpecification: openingHoursSpec(a), parentOrganization: { "@type": "Organization", name: "Tamini Insurance SA" } })),
       { ...breadcrumbSchema([{ name: t.home, path: "/" }, { name: t.eye, path: "/agences" }]), "@context": undefined },
     ],
   };
@@ -40,7 +40,12 @@ export default function Agences() {
                 <h2 style={{ fontFamily: "var(--sans)", fontSize: 20 }}>{a.name[lang] || a.name.fr}</h2>
                 <p style={{ color: "var(--ink)", fontWeight: 600 }}>{a.place[lang] || a.place.fr}</p>
                 <p>{t.services} : {a.note[lang] || a.note.fr}</p>
-                {a.hours && <p>{a.hours[lang] || a.hours.fr}</p>}
+                {a.hours && (
+                  <div className="hours" style={{ margin: "8px 0" }}>
+                    <strong style={{ color: "var(--navy)", fontSize: 14 }}>{t.hours}</strong>
+                    <ul style={{ listStyle: "none", padding: 0, margin: "4px 0 0", fontSize: 15 }}>{hoursLines(a, lang).map((l) => <li key={l}>{l}</li>)}</ul>
+                  </div>
+                )}
                 <div className="btn-row" style={{ marginTop: 14 }}>
                   <a className="btn btn-navy btn-sm" href={a.maps} target="_blank" rel="noopener noreferrer">{t.dir}</a>
                   <a className="btn btn-ghost btn-sm" href={`tel:${PHONE.intl}`} data-cta={`agence_${a.id}_phone`}>{t.call}</a>

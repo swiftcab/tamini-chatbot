@@ -601,6 +601,284 @@ De l'ouverture du chantier à la réception des travaux, avec souvent une **pér
   },
 
   {
+    slug: "assurance-djibouti-guide",
+    lang: "fr",
+    category: "Guide",
+    date: "2026-11-11",
+    readMin: 8,
+    title: "Assurance à Djibouti : le guide complet pour bien s'assurer en 2026",
+    seoTitle: "Assurance Djibouti : guide 2026 des assurances obligatoires | Tamini",
+    description: "Assurance à Djibouti : ce qui est obligatoire, comment le marché est encadré, assurance auto, habitation, voyage, entreprise, Takaful, et comment choisir sa compagnie d'assurance.",
+    excerpt: "Ce qui est obligatoire, qui contrôle les assureurs, quelles garanties choisir et comment comparer les compagnies d'assurance à Djibouti.",
+    keywords: ["assurance djibouti", "assurance à djibouti", "compagnie d'assurance djibouti", "compagnies d'assurance djibouti", "assureur djibouti", "insurance djibouti"],
+    product: null,
+    body: `
+S'assurer à Djibouti, c'est d'abord respecter quelques obligations légales, puis protéger ce qui compte pour vous : votre famille, votre véhicule, votre logement, votre activité. Ce guide fait le point, sans jargon, sur ce qu'il faut savoir avant de signer un contrat.
+
+## Quelles assurances sont obligatoires à Djibouti ?
+
+Une seule assurance s'impose à tous les particuliers : la **responsabilité civile automobile**. Tout véhicule à moteur qui circule doit être couvert pour les dommages qu'il peut causer aux autres, qu'il s'agisse de personnes ou de biens.
+
+D'autres assurances deviennent obligatoires **selon votre situation** :
+
+- **Visa Schengen** : une assurance voyage couvrant au moins 30 000 € de frais médicaux et de rapatriement est exigée pour le dossier.
+- **Marchés publics et appels d'offres** : le maître d'ouvrage demande souvent une garantie de soumission puis une **garantie de bonne exécution**.
+- **Financement** : une banque qui finance un véhicule, un logement ou un équipement peut exiger une assurance dommages.
+- **Contrats commerciaux** : un bailleur, un client ou un donneur d'ordre peut imposer une responsabilité civile.
+
+## Qui contrôle les compagnies d'assurance ?
+
+Les compagnies d'assurance de Djibouti doivent être **agréées** et sont placées sous le contrôle de l'autorité de régulation des assurances (ARSD). Les règles de l'assurance automobile, notamment la prime de référence et le **bonus-malus**, sont fixées par l'[arrêté n° 2019-213/PR/MEFI](${ARRETE_URL}).
+
+Un rapport public sur le marché, publié par la Direction de l'économie, présente chaque année le chiffre d'affaires des assureurs. Selon le [rapport 2023](https://direction-economie.gouv.dj/2022/11/RAPPORT_DU_MARCHE_DES_ASSURANCES_2023.pdf), le chiffre d'affaires de Tamini a progressé de 36,4 % en 2023.
+
+Avant de souscrire, vérifiez toujours que la compagnie est agréée et que votre contrat mentionne clairement son nom, ses garanties et ses exclusions.
+
+## Assurance conventionnelle ou Takaful : quelle différence ?
+
+Deux modèles coexistent à Djibouti :
+
+| | Assurance conventionnelle | Assurance Takaful |
+| --- | --- | --- |
+| Principe | Vous achetez une couverture à une compagnie | Les participants s'entraident via un fonds commun |
+| Résultat technique | Revient à la compagnie | L'excédent du fonds peut être partagé avec les participants éligibles |
+| Placements | Sans restriction particulière | Sans intérêt (riba) ni spéculation, sous supervision d'un comité Charia |
+| Accès | Ouvert à tous | Ouvert à tous, quelle que soit la religion |
+
+Tamini Insurance SA est la **première compagnie d'assurance Takaful agréée à Djibouti**. Pour aller plus loin, lisez [Takaful : définition et fonctionnement](/blog/takaful-definition-fonctionnement).
+
+## Les principales assurances pour les particuliers
+
+- **[Assurance automobile](/particuliers/auto)** : responsabilité civile obligatoire, ou formules plus complètes jusqu'au tous risques. L'assistance routière 24h/24 est disponible en option. Détails des prix et du bonus-malus : [assurance auto à Djibouti](/blog/assurance-auto-djibouti-prix).
+- **[Assurance habitation](/particuliers/habitation)** : incendie, dégâts des eaux, vol, responsabilité civile du chef de famille.
+- **[Assurance voyage](/particuliers/voyage)** : frais médicaux à l'étranger, rapatriement, attestation pour visa.
+- **[Takaful Éducation](/particuliers/education)** : constituer et protéger le budget des études de vos enfants.
+- **[Accidents personnels](/particuliers/accidents)** : un capital ou des indemnités en cas d'accident.
+
+## Les principales assurances pour les entreprises
+
+Djibouti est une plateforme logistique : le port, les zones franches et le corridor vers l'Éthiopie créent des besoins spécifiques.
+
+- **[Multirisque entreprise](/entreprises/multirisque)** pour les locaux, entrepôts, équipements et stocks.
+- **[Responsabilité civile](/entreprises/rc)** pour les dommages causés aux clients et aux tiers.
+- **[Assurance maritime et marchandises](/entreprises/maritime)** pour l'import, l'export et le transit. Voir notre guide [assurance marchandises](/blog/assurance-marchandises-import-export-djibouti).
+- **[Flotte automobile](/entreprises/flotte)** à partir de 3 véhicules, avec les réductions officielles prévues par l'arrêté 2019-213.
+- **[Assurance chantier](/entreprises/chantier)** (tous risques chantier) et **[garanties de bonne exécution](/entreprises/bond)** pour les marchés.
+
+## Comment choisir sa compagnie d'assurance à Djibouti ?
+
+Comparez les offres sur des critères concrets plutôt que sur le seul prix :
+
+1. **Les garanties réellement incluses** et celles proposées en option.
+2. **Les exclusions** : lisez-les avant de signer, c'est là que se jouent les refus d'indemnisation.
+3. **La procédure en cas de sinistre** : à qui s'adresser, quels documents, comment suivre son dossier.
+4. **La proximité** : agences, horaires, joignabilité par téléphone et WhatsApp.
+5. **Le modèle** : conventionnel ou Takaful, selon vos convictions et votre intérêt pour le partage de l'excédent.
+
+## Comment obtenir un devis chez Tamini ?
+
+Le plus simple : remplissez le [formulaire de devis en ligne](/devis), qui pose uniquement les questions utiles à votre assurance, puis un conseiller vous recontacte par WhatsApp ou par téléphone. Vous pouvez aussi passer dans l'une de nos [trois agences à Djibouti](/agences).
+`,
+    faq: [
+      ["Quelle assurance est obligatoire à Djibouti ?", "La responsabilité civile automobile est obligatoire pour tout véhicule qui circule. D'autres assurances peuvent être exigées selon la situation : visa Schengen, appels d'offres, financement bancaire ou contrat commercial."],
+      ["Comment savoir si une compagnie d'assurance est agréée à Djibouti ?", "Les compagnies d'assurance doivent être agréées et sont contrôlées par l'État. Le rapport annuel du marché publié par la Direction de l'économie liste les assureurs en activité."],
+      ["Le Takaful est-il réservé aux musulmans ?", "Non. L'assurance Takaful est ouverte à tous les particuliers et à toutes les entreprises."],
+      ["Combien de temps faut-il pour obtenir un devis ?", "Le formulaire en ligne prend environ une minute. Un conseiller Tamini vous recontacte ensuite pour vous remettre une proposition personnalisée."],
+    ],
+  },
+
+  {
+    slug: "bonus-malus-djibouti",
+    lang: "fr",
+    category: "Automobile",
+    date: "2026-11-11",
+    readMin: 6,
+    title: "Bonus-malus à Djibouti : comment il est calculé et comment le faire baisser",
+    seoTitle: "Bonus-malus Djibouti : calcul et règles officielles 2026 | Tamini",
+    description: "Le bonus-malus automobile à Djibouti expliqué simplement : coefficient de départ, baisse de 10 % par an sans sinistre, majoration de 25 %, plancher 0,60, plafond 3,50, exemples chiffrés.",
+    excerpt: "Les règles officielles du coefficient bonus-malus (arrêté 2019-213), avec des exemples pour calculer le vôtre.",
+    keywords: ["bonus malus djibouti", "coefficient bonus malus", "calcul bonus malus", "malus assurance auto", "relevé d'information assurance"],
+    product: "auto",
+    body: `
+Le bonus-malus récompense les conducteurs qui n'ont pas d'accident responsable et augmente la prime de ceux qui en ont. À Djibouti, ses règles ne dépendent pas de l'assureur : elles sont fixées par l'[arrêté n° 2019-213/PR/MEFI du 24 décembre 2019](${ARRETE_URL}).
+
+## À qui s'applique le bonus-malus ?
+
+Le système concerne les contrats d'assurance automobile couvrant **de 1 à 3 véhicules**, hors véhicules de transport en commun. Au-delà, les flottes bénéficient d'un autre mécanisme : des réductions de **10 % à 30 %** selon le nombre de véhicules (voir [assurance flotte automobile](/blog/assurance-flotte-automobile-djibouti)).
+
+## Le principe du calcul
+
+Votre prime est égale à la **prime de référence** multipliée par votre **coefficient** :
+
+> Prime à payer = prime de référence × coefficient bonus-malus
+
+Le coefficient de départ est **1**. Il évolue ensuite à chaque échéance annuelle.
+
+## Les règles officielles
+
+| Situation | Effet sur le coefficient |
+| --- | --- |
+| Une année sans sinistre responsable | Baisse de 10 % (coefficient × 0,90) |
+| Coefficient minimum (bonus maximal) | 0,60, soit 40 % de réduction |
+| Un sinistre responsable | Hausse de 25 % (coefficient × 1,25) |
+| Plusieurs sinistres | Les majorations se multiplient |
+| Coefficient maximum (malus maximal) | 3,50 |
+| Responsabilité partagée | Majoration réduite de moitié |
+| Deux années consécutives sans sinistre après un malus | Le coefficient redevient 1 |
+| Trois ans ou plus au coefficient 0,60 | Le premier sinistre ne donne lieu à aucune majoration |
+
+## Exemples de calcul
+
+**Conducteur prudent.** Coefficient 1 au départ. Après un an sans sinistre : 1 × 0,90 = **0,90**. Après deux ans : 0,90 × 0,90 = **0,81**. Après trois ans : **0,73**. Le coefficient continue de baisser jusqu'au plancher de **0,60**.
+
+**Un accident responsable.** Avec un coefficient de 0,81, un sinistre responsable porte le coefficient à 0,81 × 1,25 ≈ **1,01**.
+
+**Responsabilité partagée.** La majoration n'est que de 12,5 % : 0,81 × 1,125 ≈ **0,91**.
+
+Ces exemples illustrent la règle ; le montant final dépend aussi de la prime de référence de votre véhicule et des garanties choisies.
+
+## Changer d'assureur sans perdre son bonus
+
+Votre bonus vous appartient. Votre assureur doit vous remettre, sur demande, un **relevé de sinistralité** qui retrace vos sinistres. Présentez-le à votre nouvel assureur : votre coefficient est repris.
+
+## Comment faire baisser votre coefficient
+
+- **Conduisez prudemment** : chaque année sans sinistre responsable compte.
+- **Remplissez un constat précis** après un accident : il permet d'établir la juste part de responsabilité (voir [que faire après un accident](/blog/accident-voiture-djibouti-indemnisation)).
+- **Conservez vos relevés** à chaque changement de contrat.
+
+Envie de connaître le prix de votre assurance avec votre coefficient ? [Demandez un devis auto](/devis/auto).
+`,
+    faq: [
+      ["Quel est le bonus maximum à Djibouti ?", "Le coefficient ne peut pas descendre sous 0,60, soit une réduction de 40 % sur la prime de référence."],
+      ["Quel est le malus maximum ?", "Le coefficient est plafonné à 3,50."],
+      ["Un accident non responsable augmente-t-il le malus ?", "Non. Seuls les sinistres engageant votre responsabilité entraînent une majoration ; une responsabilité partagée donne une majoration réduite de moitié."],
+      ["Le bonus-malus s'applique-t-il aux flottes ?", "Non. Il concerne les contrats de 1 à 3 véhicules. Les flottes bénéficient de réductions officielles de 10 % à 30 % selon le nombre de véhicules."],
+    ],
+  },
+
+  {
+    slug: "constat-amiable-djibouti",
+    lang: "fr",
+    category: "Sinistres",
+    date: "2026-11-11",
+    readMin: 6,
+    title: "Constat amiable à Djibouti : comment le remplir pas à pas",
+    seoTitle: "Constat amiable Djibouti : comment bien le remplir | Tamini",
+    description: "Accident de voiture à Djibouti : comment remplir le constat amiable case par case, les erreurs à éviter, que faire si l'autre conducteur refuse de signer et comment déclarer le sinistre.",
+    excerpt: "Le constat amiable case par case, les erreurs qui coûtent cher et la marche à suivre si l'autre conducteur refuse de signer.",
+    keywords: ["constat amiable", "remplir un constat amiable", "constat amiable djibouti", "accident de voiture que faire", "déclaration de sinistre"],
+    product: "auto",
+    body: `
+Après un accrochage, le constat amiable est le document qui décrit ce qui s'est passé. C'est sur lui que les assureurs s'appuient pour déterminer les responsabilités, et donc votre indemnisation et votre [bonus-malus](/blog/bonus-malus-djibouti). Bien le remplir prend dix minutes et évite des semaines de discussions.
+
+## Avant de remplir le constat
+
+1. **Mettez-vous en sécurité** : feux de détresse, triangle si vous en avez un, passagers hors de la chaussée.
+2. **En cas de blessé**, appelez les secours et la police : la priorité n'est pas le constat.
+3. **Photographiez** la scène, la position des véhicules, les dégâts et les plaques d'immatriculation.
+4. **Relevez les coordonnées** des témoins éventuels.
+
+## Remplir le constat case par case
+
+Le constat comporte une partie commune et une colonne par véhicule (A et B).
+
+- **Date, heure et lieu précis** : nom de la rue, carrefour, repère connu.
+- **Blessés** : cochez la case, même légers.
+- **Témoins** : noms et téléphones.
+- **Conducteur et assuré** : nom, adresse, permis.
+- **Véhicule** : marque, modèle, immatriculation.
+- **Assurance** : nom de la compagnie, numéro de contrat, validité de l'attestation.
+- **Point de choc initial** : flèche sur le schéma du véhicule.
+- **Dégâts apparents** : décrivez-les brièvement.
+- **Circonstances** : cochez les cases qui correspondent, puis **indiquez le nombre de cases cochées**. Ce chiffre empêche tout ajout après coup.
+- **Croquis** : dessinez les voies, le sens de circulation, la position des véhicules au moment du choc, les panneaux et feux.
+- **Observations** : notez votre version si elle diffère de celle de l'autre conducteur.
+- **Signatures** des deux conducteurs.
+
+## Les erreurs à éviter
+
+- **Signer un constat incomplet ou que vous contestez.** Une fois signé, il ne peut plus être modifié.
+- **Oublier le nombre de cases cochées.**
+- **Reconnaître une responsabilité à l'oral** : laissez le constat et les assureurs établir les faits.
+- **Repartir sans exemplaire** : chaque conducteur garde le sien.
+
+## Si l'autre conducteur refuse de signer
+
+Ne vous énervez pas. Remplissez votre partie, notez l'immatriculation, la marque et la couleur de l'autre véhicule, prenez des photos et relevez les témoins. Prévenez la police si nécessaire, puis déclarez le sinistre à votre assureur en précisant le refus.
+
+## Déclarer le sinistre à Tamini
+
+Transmettez le constat, vos photos et votre numéro de contrat le plus tôt possible, en respectant le délai prévu par votre contrat :
+
+- en ligne via le [formulaire de déclaration de sinistre](/sinistres#declarer) ;
+- par WhatsApp ou par téléphone ;
+- dans l'une de nos [agences](/agences).
+
+Un gestionnaire vous indique ensuite les pièces complémentaires et, si nécessaire, organise l'expertise du véhicule.
+`,
+    faq: [
+      ["Le constat amiable est-il obligatoire ?", "Il n'est pas obligatoire, mais il est fortement recommandé : c'est la base sur laquelle les assureurs déterminent les responsabilités. À défaut, chaque conducteur fait une déclaration séparée, ce qui allonge le traitement."],
+      ["Peut-on modifier un constat après l'avoir signé ?", "Non. Le constat signé par les deux conducteurs ne peut plus être modifié. Vous pouvez seulement adresser des précisions à votre assureur."],
+      ["Où trouver un formulaire de constat ?", "Demandez-le à votre assureur et gardez-en un exemplaire dans la boîte à gants."],
+    ],
+  },
+
+  {
+    slug: "assurance-responsabilite-civile-djibouti",
+    lang: "fr",
+    category: "Entreprises",
+    date: "2026-11-11",
+    readMin: 6,
+    title: "Assurance responsabilité civile à Djibouti : particulier, professionnel, entreprise",
+    seoTitle: "Assurance responsabilité civile Djibouti : RC pro et entreprise | Tamini",
+    description: "Responsabilité civile à Djibouti : ce que couvre la RC chef de famille, la RC professionnelle et la RC exploitation, les exclusions courantes et les informations à préparer pour un devis.",
+    excerpt: "RC du particulier, RC professionnelle, RC exploitation : ce que chaque contrat couvre et comment choisir.",
+    keywords: ["assurance responsabilité civile djibouti", "responsabilité civile professionnelle", "assurance rc pro", "responsabilité civile exploitation", "assurance responsabilité civile"],
+    product: "rc",
+    body: `
+La responsabilité civile, c'est l'obligation de réparer les dommages que vous causez à autrui. Une assurance responsabilité civile prend en charge cette réparation à votre place, dans les limites du contrat. Selon que vous êtes un particulier, un professionnel ou une entreprise, le contrat adapté n'est pas le même.
+
+## Les trois grandes familles de responsabilité civile
+
+| Contrat | Qui est protégé | Exemples de dommages couverts |
+| --- | --- | --- |
+| RC du particulier (chef de famille) | Vous, votre conjoint, vos enfants | Un enfant casse une vitrine, un dégât des eaux chez le voisin |
+| RC professionnelle | Le professionnel pour les erreurs commises dans son métier | Erreur de conseil, défaut de conception, oubli dans un dossier |
+| RC exploitation | L'entreprise pour les dommages causés pendant son activité | Un client se blesse dans vos locaux, un livreur endommage un bien |
+
+La **RC automobile**, obligatoire, est traitée à part dans votre [assurance auto](/particuliers/auto).
+
+## Ce que couvre une responsabilité civile entreprise
+
+- Les **dommages corporels** causés à des tiers (clients, visiteurs, passants).
+- Les **dommages matériels** à leurs biens.
+- Les **dommages immatériels** qui en découlent, comme une perte d'exploitation subie par un client, selon le contrat.
+- La **défense** de l'entreprise en cas de réclamation.
+
+## Les exclusions à connaître
+
+Chaque contrat a ses exclusions. Les plus courantes : les dommages causés intentionnellement, les amendes, les dommages subis par vos propres biens (ils relèvent de la [multirisque entreprise](/entreprises/multirisque)), et certaines activités spécifiques qui demandent une couverture dédiée. Lisez toujours la liste avant de signer.
+
+## Pour quelles entreprises à Djibouti ?
+
+- **Commerces, restaurants, hôtels** : accueil du public dans vos locaux.
+- **Entreprises de services et bureaux d'études** : erreurs de conseil ou de conception.
+- **Logistique, transit, manutention** : dommages pendant les opérations.
+- **BTP et sous-traitants** : souvent exigée par le maître d'ouvrage, en complément de l'[assurance chantier](/blog/assurance-chantier-tous-risques-djibouti).
+
+## Préparer votre demande de devis
+
+Pour une proposition adaptée, préparez : votre activité exacte, votre chiffre d'affaires annuel, vos effectifs, la description de vos locaux et des lieux d'intervention, et l'historique des réclamations éventuelles. Le [formulaire de devis responsabilité civile](/devis/rc) vous guide question par question.
+`,
+    faq: [
+      ["La responsabilité civile professionnelle est-elle obligatoire à Djibouti ?", "Elle n'est pas imposée à toutes les activités, mais elle est souvent exigée par les clients, les bailleurs ou les maîtres d'ouvrage dans les contrats et appels d'offres."],
+      ["Quelle différence entre RC professionnelle et RC exploitation ?", "La RC exploitation couvre les dommages causés pendant l'activité (accident dans vos locaux). La RC professionnelle couvre les conséquences d'une faute dans l'exercice du métier (erreur de conseil, de conception)."],
+      ["La RC couvre-t-elle les dommages à mes propres locaux ?", "Non. Vos propres biens se protègent avec une assurance multirisque entreprise."],
+    ],
+  },
+
+  {
     slug: "insurance-in-djibouti-guide",
     lang: "en",
     category: "Guide",

@@ -6,9 +6,9 @@
 // Pour publier : passer validated à true + renseigner validatedBy.
 // ─────────────────────────────────────────────────────────────
 export const SURPLUS = {
-  validated: false,
-  validatedBy: "", // ex. "Direction Technique — 12/10/2026"
-  series: [{ y: "2022", v: 13 }, { y: "2023", v: 22 }, { y: "2024", v: 27 }, { y: "2025", v: 38 }], // M FDJ — provisoire
+  validated: true,
+  validatedBy: "Confirmé par la direction (Taha), 11/11/2026",
+  series: [{ y: "2022", v: 13 }, { y: "2023", v: 22 }, { y: "2024", v: 27 }, { y: "2025", v: 38 }], // M FDJ — montants confirmés le 11/11/2026
 };
 
 // Taux de règlement affiché (65 % vs ~18 % marché). À reconfirmer

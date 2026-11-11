@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useLang } from "../i18n/LanguageContext";
 import QuickForm from "../components/QuickForm";
 import Seo, { breadcrumbSchema, organizationSchema } from "../seo/Seo";
-import { AGENCIES, EMAIL, PHONE, WA_B2B, WA_B2C, wa } from "../config/site";
+import { AGENCIES, EMAIL, PHONE, WA_B2B, WA_B2C, wa, hoursLines } from "../config/site";
 
 const T = {
   fr: {
@@ -93,7 +93,7 @@ export default function Contact() {
                 <div className="card" key={a.id}>
                   <h3>{a.name[lang] || a.name.fr}</h3>
                   <p>{a.place[lang] || a.place.fr} · {a.note[lang] || a.note.fr}</p>
-                  {a.hours && <p>{a.hours[lang] || a.hours.fr}</p>}
+                  {a.hours && <p style={{ fontSize: 14 }}>{hoursLines(a, lang).join(" · ")}</p>}
                   <a href={a.maps} target="_blank" rel="noopener noreferrer" style={{ fontWeight: 700, color: "var(--lime-ink)" }}>{t.dir} →</a>
                 </div>
               ))}

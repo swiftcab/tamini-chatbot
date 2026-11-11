@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useLang } from "../i18n/LanguageContext";
-import { AGENCIES, PHONE, EMAIL, WA_B2C, WA_B2B } from "../config/site";
+import { AGENCIES, PHONE, EMAIL, WA_B2C, WA_B2B, openingHoursSpec } from "../config/site";
 
 // ─────────────────────────────────────────────────────────────
 // Composant SEO réutilisable.
@@ -92,6 +92,7 @@ export const organizationSchema = {
   },
   telephone: "+253-21-35-04-03",
   email: EMAIL,
+  openingHoursSpecification: openingHoursSpec(AGENCIES[0]),
   sameAs: [
     "https://www.facebook.com/Tamini.insurance",
     "https://www.linkedin.com/company/70424040/",
@@ -113,6 +114,7 @@ export const organizationSchema = {
     name: `Tamini Insurance — ${a.name.fr}`,
     address: { "@type": "PostalAddress", streetAddress: a.place.fr, addressLocality: "Djibouti", addressCountry: "DJ" },
     telephone: PHONE.intl,
+    openingHoursSpecification: openingHoursSpec(a),
   })),
   knowsAbout: [
     "Takaful",
